@@ -1,4 +1,30 @@
 a {
-  color: white;
+  color: #00ACC1;
   text-decoration: none;
+}
+
+a:hover {
+  font-size: 15px;
+  color: #18FFFF
+}
+
+p {
+  color: #1976D2;
+}
+
+p:hover {
+
+  color: #18FFFF;
+}
+
+h5 {
+  color: #BBDEFB;
+}
+
+h5:hover {
+  color: #18FFFF;
+}
+
+.footer-copyright {
+  color: #D7CCC8;
 }
