@@ -17,6 +17,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { MatDialogModule } from '@angular/material/dialog';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
