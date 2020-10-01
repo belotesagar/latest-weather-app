@@ -10,7 +10,8 @@ import { SignupComponent } from './signup/signup.component';
 })
 export class AppComponent {
   title = 'weather-app';
-  weatherdata;
+  defaultExist: boolean = true;
+  weatherdata: any;
   constructor(private user: UserService, public dialog: MatDialog) {
     this.user.getData().subscribe(data => {
       // console.log("data:", data);
@@ -42,6 +43,9 @@ export class AppComponent {
   submitValue(inputValue: any) {
     console.log("input value:", inputValue.value);
     this.value = inputValue.value;
+  }
+  destroy() {
+    this.defaultExist = false;
   }
 
 }
