@@ -13,7 +13,7 @@ export class AppComponent {
   weatherdata;
   constructor(private user: UserService, public dialog: MatDialog) {
     this.user.getData().subscribe(data => {
-      console.log("data:", data);
+      // console.log("data:", data);
       this.weatherdata = data;
     })
   }
@@ -37,6 +37,11 @@ export class AppComponent {
 
   onSubmit(data) {
     console.log("login-data:", data);
+  }
+  value: string;
+  submitValue(inputValue: any) {
+    console.log("input value:", inputValue.value);
+    this.value = inputValue.value;
   }
 
 }

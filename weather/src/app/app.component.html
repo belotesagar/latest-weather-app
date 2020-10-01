@@ -28,7 +28,10 @@
     </form>
   </div>
 </nav>
-
 <router-outlet></router-outlet>
+<input type="text" placeholder="type input" #inputValue>
+<button (click)="submitValue(inputValue)">click me</button>
+<app-default-page [myValue]="value">
+</app-default-page>
 
 <app-footer></app-footer>

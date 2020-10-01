@@ -16,6 +16,7 @@ import { SignupComponent } from './signup/signup.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FooterComponent } from './footer/footer.component';
+import { DefaultPageComponent } from './default-page/default-page.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     LoginComponent,
     SignupComponent,
     PageNotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    DefaultPageComponent
   ],
   entryComponents: [LoginComponent, SignupComponent],
   imports: [
