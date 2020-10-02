@@ -3,13 +3,18 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component'
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DefaultPageComponent } from './default-page/default-page.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: "/home",
+    redirectTo: "default",
     pathMatch: 'full'
+  },
+  {
+    path: 'default',
+    component: DefaultPageComponent
   },
   {
     path: 'home',
