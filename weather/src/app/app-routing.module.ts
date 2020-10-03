@@ -5,7 +5,9 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DefaultPageComponent } from './default-page/default-page.component';
-
+import { FooterComponent } from './footer/footer.component';
+import { BlogComponent } from './blog/blog.component';
+import { AboutComponent } from './about/about.component'
 const routes: Routes = [
   {
     path: '',
@@ -21,12 +23,24 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: 'blog',
+    component: BlogComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
     path: 'login',
     component: LoginComponent
   },
   {
     path: 'signup',
     component: SignupComponent
+  },
+  {
+    path: 'footer',
+    component: FooterComponent
   },
   {
     path: '**',
