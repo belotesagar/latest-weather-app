@@ -24,6 +24,7 @@
     "@angular/router": "~10.0.14",
     "@ciar4n/izmir": "^1.0.1",
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
+    "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^4.5.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
