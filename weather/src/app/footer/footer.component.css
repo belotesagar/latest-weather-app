@@ -6,7 +6,7 @@ footer {
 }
 
 a {
-  color: #00ACC1;
+  color: #424242;
   text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ a:hover {
 }
 
 p {
-  color: #1976D2;
+  /* color: #1976D2; */
 }
 
 p:hover {
@@ -25,7 +25,7 @@ p:hover {
 }
 
 h5 {
-  color: #BBDEFB;
+  color: #FF1744;
 }
 
 h5:hover {
